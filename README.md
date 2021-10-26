@@ -1,15 +1,7 @@
-# Brutal Resume
+# Patrick Earl Resume
 
-Extremely slim Latex resume template. This will save your 2-3 minutes finding template, fiddling font sizes and so on.
+This repository contains my resume in LaTeX form. The original template file *Brutal-Resume* was
+created by Whemoon Jang (@palindrom615) which can be found [here](https://github.com/palindrom615/brutal-resume).
 
-[![example resume image](./.github/example-resume.jpg)](./example-resume.pdf)
-
-## Why you should consider using this template
-
-* just one [class file](./resume.cls) with <= 50 loc
-
-    Easy to fix these and those. You don't have to be Latex expert to write your resume.
-* public domain
-
-    You don't have to concern about silly things e.g. adding annotation in your pdf for license. We are not a lawyer but an engineer anyway.
+Thanks to him for creating this template and releasing it under CC0.
 
