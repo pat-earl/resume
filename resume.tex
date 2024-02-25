@@ -4,27 +4,30 @@
 
 \name{Patrick Earl}
 \contact{\href{tel:+1 484-903-7150}{+1 484-903-7150}}
-\contact{\href{mailto:patrick.earl95@gmail.com}{patrick.earl95@gmail.com}}
+% \contact{\href{mailto:patrick.earl95@gmail.com}{patrick.earl95@gmail.com}}
 \contact{\href{https://www.pat-earl.com}{www.pat-earl.com}}
-\contact{Allentown, PA}
+\contact{Pittsburgh, PA}
+\contact{Active Security Clearence}
 
 \begin{document}
 \makeheader
 
 \begin{ResumeSection}{experience}
-    \begin{ResumeSubsection}{org={Kutztown University of PA}, location={Kutztown, PA}, position={Instructor}, duration={08/2019 - Present}}
+    \begin{ResumeSubsection}{org={Carnegie Mellon University/Software Engineering Institute}, location={Pittsburgh, PA}, position={DevOps Engineer}, duration={05/2022 - Present}}
         \begin{itemize}
-            \item Facilitate and deliver lectures for undergraduate computer science courses. Primary topics taught include: 
-            \begin{itemize}
-                \item Computer Science I (taught using \textbf{C++})
-                \item Data Analysis using \textbf{Python} \& Pandas
-                \item Data Visualization with Tableau
-                \item Computer Networks (Focus on App-Layer Protocols and overview of TCP/IP Reference Layers)
-                \item Linux (Filesystem Overview, Basic Commands, Processes, Text Processing, Scripting)
-                \item Computing Systems Integration
-            \end{itemize}
-            \item Serve on departmental and university-wide committees.
-            \item Maintain various PHP web applications used by the CS\&IT Department.
+            \item Helping DoD customers transition to using more modern DevSecOps practices through use of containerization, cloud environments, etc.
+            \item Actively contributed on multiple projects using languages such as Go, Python, and Rust. 
+            \item Helping maintain an Azure hosted Kubernetes cluster hosting Platform1's BigBang deployment. 
+            \item Has helped write Gitlab CI/CD Pipelines and Dockerfiles to containerize applications.
+            \item Helping manage cloud environments in Azure and AWS using cli tools and Terraform. 
+        \end{itemize}
+    \end{ResumeSubsection}
+    \begin{ResumeSubsection}{org={Kutztown University of PA}, location={Kutztown, PA}, position={Instructor}, duration={08/2019 - 05/2022}}
+        \begin{itemize}
+            \item Facilitated and delivered lectures for undergraduate computer science courses. Primary topics taught included
+            introductory C++ and Python Programming courses, Data Analysis using Pandas, Data Visualization, Computer Networks,
+            and Linux for System Administrators
+            \item Served on departmental and university-wide committees.
         \end{itemize}
     \end{ResumeSubsection}    
     \begin{ResumeSubsection}{org={Kutztown University of PA}, location={Kutztown, PA}, position={Graduate Assistant}, duration={08/2018 - 05/2019}}
@@ -33,10 +36,17 @@
             \item Held tutoring hours for undergraduate computer science students. 
         \end{itemize}
     \end{ResumeSubsection}
-    \begin{ResumeSubsection}{org={St. Lukes University Health Network}, location={Allentown, PA}, position={Data Reporting Internship}, duration={05/2018 - 08/2018}}
+\end{ResumeSection}
+
+\begin{ResumeSection}{skills}
+    \newcommand{\skill}[2]{\textbf{#1} - #2}
+    \begin{ResumeSubsection}{org=Technical}
         \begin{itemize}
-            \item Improved and added features to an existing \textbf{Python} application used to verify links between records in vendor-specific databases. 
-            \item Created \textbf{Python} selenium script used to automate downloading of CSV files from a web application.
+            \item \skill{Programming Languages}{Golang, Python, Rust, C++}
+            \item \skill{Computer Networking}{DNS, HTTP, Routing, TCP/IP Reference Model}
+            \item \skill{System Administration}{BASH Scripting, Management, Software Installations}
+            \item \skill{DevOps Technologies}{Kubernetes, Container Building, CI/CD Pipelines}
+            \item \skill{Cloud Operations}{Azure \& AWS CLIs, Terraform, Ansbile}
         \end{itemize}
     \end{ResumeSubsection}
 \end{ResumeSection}
@@ -54,34 +64,11 @@
     \end{ResumeSubsection}
 \end{ResumeSection}
 
-\begin{ResumeSection}{projects}
+\begin{ResumeSection}{publications}
     \begin{ResumeSubsection}{org={Kutztown University}}
         \begin{itemize}
-            \item Collaborated with University IT department on various projects to improve student learning. 
-            \item Helped craft grant proposal for NSF \emph{CS4All} grant which was accepted early 2021,
-            with the focus on developing a CS curriculum framework to introduce K-12 students to CS topics.  
-            Will be serving on the advisory board and help with running and leading workshops for 6 days 
-            in 2022-2023. 
-        \end{itemize}
-    \end{ResumeSubsection}
-    \begin{ResumeSubsection}{org={KU - Graduate Studies}}
-        \begin{itemize}
-            \item Graduate Group Project which focused on designing a computer network for a fictional university. Group was tasked with 
-            selecting equipment, creating network room layouts, and subnetting our allocated IP block. 
-            \item Developed distributed chat server for Linux using \textbf{C++} with a multi-process server that kept client records in shared memory.
+            \item Patrick Earl, Lisa Frye, and Dale Parson. \emph{Assessing a Scholarship Program for Underrepresented Students in Computer Science and Information Technology.} The 35th Annual Conference of the Pennsylvania Computer And Information Science Educators (PACISE '20). April 2020, West Chester, PA. 
         \end{itemize}
     \end{ResumeSubsection}
 \end{ResumeSection}
-
-\begin{ResumeSection}{skills}
-    \newcommand{\skill}[2]{\textbf{#1} - #2}
-    \begin{ResumeSubsection}{org=Technical}
-        \begin{itemize}
-            \item \skill{Programming Languages}{Python, C++}
-            \item \skill{Computer Networking}{DNS, HTTP, Routing, TCP/IP Reference Model}
-            \item \skill{Linux System Administration}{BASH Scripting, Management, Software Installations}
-        \end{itemize}
-    \end{ResumeSubsection}
-\end{ResumeSection}
-
 \end{document}
